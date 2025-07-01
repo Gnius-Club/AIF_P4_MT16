@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P4-TM16</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 16 4to Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos de Aprendizaje:</strong>
+                                    <ul>
+                                        <li>Cutebot & A.I. Lens (Traffic Cards) & GCS: Programar al Cutebot para que obedezca las señales de tráfico detectadas en tarjetas.</li>
+                                        <li>IA: Reflexionar sobre la importancia de la precisión en sistemas críticos como los coches autónomos.</li>
+                                        <li>Parte de la Currícula de IA cubierta: Aplicación de reconocimiento de señales.</li>
+                                        <li>Objetivo General de la Sesión: Que los estudiantes programen al Cutebot para que reaccione de manera apropiada a diferentes tarjetas de señales de tráfico detectadas por la Smart A.I. Lens, y reflexionen sobre la importancia crítica de la precisión en sistemas de IA que toman decisiones basadas en estas señales.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li>⚡ Actividad 1: Saludo de I.A. con todos</li>
+                                        <li>⚡ Actividad 2: I Can Statement + Ejemplificación</li>
+                                        <li>⚡ Actividad 3: AI GYM</li>
+                                        <li>⚡ Actividad 4: Brain Spark</li>
+                                        <li>⚡ Actividad 5: Gnius STORM (Think-Pair-Share)</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Programa en MakeCode donde el Cutebot sigue una "pista" y reacciona a diferentes señales de tráfico (ej. se detiene con 'Stop', avanza con 'Flecha', gira con 'Girar').</li>
+                                        <li>Participación en la discusión sobre precisión, sistemas críticos y las consecuencias de los errores de la IA.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Agente Gnius" (Xolo) activo.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-10).</li>
+                                        <li>Micro:bits y baterías (1 por cada 2 estudiantes).</li>
+                                        <li>Smart A.I. Lens (1 por cada 2 estudiantes).</li>
+                                        <li>Robots Cutebot (1 por cada 2 estudiantes).</li>
+                                        <li>Tarjetas de señales de tráfico (Stop, Flecha Adelante, Flecha Izquierda, etc.).</li>
+                                        <li>Pequeña "pista" o recorrido (marcado en el suelo/mesa).</li>
+                                        <li>Acceso a MakeCode (<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>).</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Confirmar acceso y funcionamiento de la plataforma de programación del día (MakeCode).</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (Micro:bits, A.I. Lens, Cutebots).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Agente Gnius" (Xolo) para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                        <li><strong>Ejemplo Profesor:</strong> Tener listo y funcional el proyecto de ejemplo (Cutebot deteniéndose ante una tarjeta de "Stop" y avanzando ante una de "Flecha adelante") para la demostración en la Actividad 2.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. con todos ⏰ 3 minutos</h2>
+                <p>Generar conexión emocional, motivar y contextualizar.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Saludo de I.A. con todos ⏰ 0.5 minutos</h3>
+                            <p>(Proyectar Diapositiva 2). Da la bienvenida a los alumnos con energía, introduce brevemente la emoción de la misión del día sin revelar detalles, e instrúyeles claramente cómo activar a Xolo con sus gustos/intereses.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola, conductores responsables del futuro! Ya logramos que nuestra A.I. Lens sea una experta leyendo señales de tráfico. Hoy vamos a dar el gran paso: ¡haremos que nuestro Cutebot no solo las lea, sino que las obedezca! ¿Listos para programar un robot que respeta las normas de circulación? Antes de empezar, vamos a activar a nuestro amigo Xolo. Por favor, salúdenlo en el chat y díganle su nombre y cuáles son sus gustos e intereses. Por ejemplo: 'Hola Xolo, soy [Nombre] y mis gustos son [las carreras y la robótica]'."</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Saludo de I.A. con todos ⏰ 2.5 minutos</h3>
+                            <p>Monitorea a los alumnos mientras interactúan con Xolo. Asegúrate de que todos reciban una respuesta y resuelve cualquier problema técnico.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Fantástico! Veo que Xolo ya les está respondiendo y está listo para esta misión. Si alguien no ha recibido respuesta de Xolo, levante la mano para ayudarle.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: I Can Statement + Ejemplificación ⏰ 5 minutos</h2>
+                <p>Presentar claramente el objetivo de aprendizaje y establecer una meta concreta.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: I Can Statement + Ejemplificación ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 3). Introduce el concepto principal de la sesión con una analogía o ejemplo del mundo real, preparando el terreno para el objetivo de aprendizaje.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ya sabemos que la lente puede identificar una señal de 'Stop' o una de 'Límite de Velocidad'. Ahora, vamos a programar a Cutebot para que actúe según esas señales. Si ve 'Stop', ¡debe detenerse! Si ve 'Avanzar' (o una flecha), podría moverse hacia adelante. Esto es exactamente lo que un coche autónomo debe hacer. Y es súper importante que lo haga bien siempre. ¿Qué pasaría si un coche autónomo no se detiene en una señal de Stop?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Descripción General ⏰ 2 minutos</h3>
+                            <p>(El profesor muestra SU Cutebot con SU proyecto de ejemplo ya cargado y funcionando. Esta es una demostración en vivo, no se proyecta diapositiva).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Para que vean una de las muchas cosas que podemos hacer hoy, les voy a mostrar un proyecto que yo mismo preparé. Miren mi Cutebot: (Muestra el Cutebot deteniéndose ante una tarjeta de 'Stop' y avanzando ante una de 'Flecha adelante'). Yo le pedí que (describe aquí brevemente la acción principal de tu proyecto, ej: 'obedeciera las señales de tráfico que le muestro'). ¿Ven cómo podemos usar los conceptos de hoy para crear un robot más inteligente y seguro? Para lograr esto, mi 'vibe' fue simple: quería que (describe aquí tu objetivo, ej: 'mi Cutebot se convirtiera en un conductor responsable').</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Desglose (Sensores) ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 4). Presenta formalmente el 'I Can Statement' y conecta el ejemplo mostrado con lo que los alumnos crearán.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Así como mi Cutebot obedece las señales, ¡ustedes hoy harán algo muy similar! Al final de la clase, podrán decir con confianza: <strong>'Yo puedo programar mi Cutebot para que reaccione de forma diferente a distintas señales de tráfico, y entiendo por qué la precisión es tan importante en estos sistemas de IA.'</strong> ¡Vamos a ello!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: AI GYM ⏰ 7 minutos</h2>
+                <p>Introducir conceptos clave de IA o programación de forma amigable y visual.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: AI GYM ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 5). Presenta el A.I. GYM y da una instrucción clara a los alumnos sobre cómo pedir la información a Xolo, incluyendo su perfil y los conceptos del día.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genios, es momento de entrar al A.I. GYM! 🧠💪 Xolo, nuestro copiloto IA, nos va a explicar los conceptos clave de hoy: cómo programar a Cutebot para que obedezca las señales y por qué la precisión es tan importante en lo que llamamos 'sistemas críticos'. Para que la explicación sea personalizada para ustedes, escriban en el chat el siguiente comando: 'Mi perfil es [escribe aquí tus gustos/intereses] y quiero que me enseñes a hacer que Cutebot obedezca señales y sobre la precisión en sistemas críticos'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: AI GYM ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositivas 6 y 7). Monitorea a los alumnos mientras interactúan con Xolo y reciben la explicación. Fomenta que hagan preguntas de seguimiento.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Excelente! Xolo les está explicando cómo combinar el reconocimiento de señales con las acciones del Cutebot usando la lógica `SI...SINO SI...`. También les está contando sobre los 'sistemas críticos', que son IAs que toman decisiones importantes para la seguridad, como en los coches autónomos, donde un pequeño error puede ser muy peligroso.</p>
+                                <p class="dialogue assistant">Para que vean cómo se usan estos conceptos en un GCS, Xolo podría mostrarles un ejemplo como este para que Cutebot obedezca varias señales:</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;">
+POR SIEMPRE:
+    fijar variable_texto "senal_actual" a Card(s)' info: ID
+
+    SI (variable_texto "senal_actual" == "STOP"):
+        cutebot_detener()
+        cutebot_todos_los_led(ROJO)
+    SINO SI (variable_texto "senal_actual" == "FORWARD"):
+        cutebot_avanzar(60)
+        cutebot_todos_los_led(VERDE)
+    SINO SI (variable_texto "senal_actual" == "TURN_LEFT"):
+        cutebot_girar_izquierda(50)
+        ESPERAR 1 segundo
+        cutebot_detener()
+        cutebot_todos_los_led(AMARILLO)
+    SINO:
+        cutebot_apagar_leds()
+    FIN SI
+                                </pre>
+                                <p class="dialogue assistant">Si algo no queda claro, ¡recuerden que pueden preguntarle directamente a Xolo! Prueben con: <br>
+                                <strong>* 'Xolo, ¿por qué un 99% de precisión no es suficiente para un coche autónomo?'</strong><br>
+                                <strong>* '¿Puedes explicarme con una historia sobre [sus gustos/intereses] qué es un sistema crítico?'</strong><br>
+                                <strong>* '¿Qué pasaría si mi Cutebot confunde la señal de girar con la de avanzar?'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark ⏰ 20 minutos</h2>
+                <p>Poner en práctica el aprendizaje a través de una experiencia de codificación creativa guiada por la "vibe" del alumno.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Spark ⏰ 1 minutos</h3>
+                            <p>(Proyectar Diapositiva 8). Presenta la actividad como la fase creativa principal de la sesión, generando entusiasmo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo, genios! Ahora vamos a la parte más emocionante de nuestra misión, el Brain Spark. Aquí es donde cada uno de ustedes se convierte en programador de robots autónomos, usando lo que aprendimos para crear su propio proyecto y probarlo en el mundo real.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Spark ⏰ 2 minutos</h3>
+                            <p>Anima a los alumnos a pensar en su propio proyecto, basándose en los conceptos del día. El objetivo es la libre exploración de ideas. Recuerda a las parejas que el material se comparte y deberán alternar para programar.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Ahora que ya saben cómo hacer que el Cutebot reaccione a las señales, ¿qué 'vibe' tienen? ¿Quieren que su Cutebot se detenga con 'Stop', avance con 'Flecha Adelante', y gire a la izquierda con 'Flecha Izquierda'? ¿O quizás quieren que sea muy cuidadoso y ajuste su velocidad según las señales de límite? Tómense un minuto para pensar en su 'vibe'. Recuerden que están compartiendo el material en parejas, así que tendrán que turnarse para programar. Si necesitan ideas, ¡no hay problema! Escriban en el chat con Xolo el comando exacto: 'Exploremos ideas juntos para que mi Cutebot obedezca las señales de tráfico'."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Spark ⏰ 3 minutos</h3>
+                            <p>Guía a los alumnos sobre cómo comunicar su idea a Xolo para obtener el GCS. Mientras los alumnos escriben y discuten sus ideas con Xolo, asegúrate de que cada pareja tenga su material.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¿Ya tienen su 'vibe' para el conductor autónomo? ¡Genial! Ahora, vamos a pedirle a Xolo que nos ayude a crear el GCS. Describan su 'vibe' a Xolo de la forma más clara posible. Por ejemplo: 'Quiero que mi Cutebot se detenga si ve 'Stop', avance si ve 'Flecha Adelante', y gire a la izquierda si ve 'Flecha Izquierda'.</p>
+                                <p class="dialogue assistant">Basado en esa petición, Xolo podría generar un GCS como este. ¡Fíjense bien en cómo se estructura!</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;">
+AL INICIO:
+    Initialize AI-Lens
+    Switch function as Card recognition
+    mostrar texto "Obedezco senales!"
+
+POR SIEMPRE:
+    fijar variable_texto "senal_actual" a Card(s)' info: ID
+
+    SI (variable_texto "senal_actual" == "STOP"):
+        cutebot_detener()
+        cutebot_todos_los_led(ROJO)
+    SINO SI (variable_texto "senal_actual" == "FORWARD"):
+        cutebot_avanzar(60)
+        cutebot_todos_los_led(VERDE)
+    SINO SI (variable_texto "senal_actual" == "TURN_LEFT"):
+        cutebot_girar_izquierda(50)
+        ESPERAR 1 segundo
+        cutebot_detener()
+        cutebot_todos_los_led(AMARILLO)
+    SINO:
+        cutebot_apagar_leds()
+    FIN SI
+    ESPERAR 0.2 segundos
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Brain Spark ⏰ 13 minutos</h3>
+                            <p>Da tiempo a los alumnos para que traduzcan el GCS a bloques, prueben en la "pista" y observen. Recordarles alternar el uso del material en la pareja.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Manos a la obra, ingenieros! Tomen el GCS que les dio Xolo y constrúyanlo con bloques en MakeCode. Preparen su pequeña "pista" y coloquen las señales para probar si su Cutebot las obedece. Recuerden que están trabajando en parejas, así que asegúrense de tomar turnos para programar y probar en la pista. Si el GCS de Xolo no funciona a la primera, ¡es una oportunidad para depurar! Descríbanle el error a Xolo para que puedan mejorar juntos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 5: Brain Spark ⏰ 1 minutos</h3>
+                            <p>Ofrece desafíos adicionales para los alumnos que terminen antes, basados en la sección 'Reflexión sobre la Precisión' de la escaleta.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¿Ya terminaron y su proyecto funciona de maravilla? ¡Felicidades! Aquí tienen un desafío extra: ¿El Cutebot siempre hizo lo correcto? ¿Hubo alguna vez que 'leyó' mal una señal o no la vio? ¿Qué pasaría si la iluminación no fuera buena o si la tarjeta estuviera un poco tapada? ¿Qué tan "perfecto" necesita ser para que confíen en él? ¡Consulten con Xolo cómo podrían modificar su GCS para hacerlo más seguro!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM ⏰ 5 minutos</h2>
+                <p>Compartir, reflexionar y consolidar el aprendizaje sobre la aplicación y la precisión.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gnius STORM (Think - Individual) ⏰ 0.5 minutos</h3>
+                            <p>(Proyectar Diapositiva 9). Presenta la actividad como el momento de compartir y celebrar los proyectos, explicando brevemente la dinámica.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo, creadores! Han hecho un trabajo increíble en el Brain Spark. Ahora es el momento de compartir sus inventos en nuestro Gnius STORM. Esta es la parte donde aprendemos unos de otros. La dinámica será simple: primero pensaremos un poco en nuestro propio trabajo, luego lo compartiremos en parejas, y finalmente reflexionaremos todos juntos. ¿Listos?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Gnius STORM (Pair - Parejas) ⏰ 0.5 minutos</h3>
+                            <p>Da a los alumnos un momento corto para la reflexión individual sobre su propio proyecto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Perfecto. Antes de mostrar su proyecto, tómense 30 segundos para pensar en silencio. Miren su creación y reflexionen: <strong>¿Qué fue lo más desafiante de hacer que Cutebot obedeciera las señales? ¿Creen que su Cutebot sería un conductor seguro en una ciudad de robots? ¿Están orgullosos del resultado?</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Gnius STORM (Share - Retroalimentación) ⏰ 1.5 minutos</h3>
+                            <p>Indica a los alumnos que se junten en parejas, intercambien sus dispositivos y expliquen sus proyectos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien! Ahora, júntense con su compañero. Por turnos, cada uno va a mostrar su Cutebot navegando la pista y explicará: <strong>'Mi Cutebot obedece la señal de [nombre de la señal] haciendo [describe la acción]. La 'vibe' que tenía era que fuera un conductor seguro.'</strong> El compañero debe observar con atención.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Gnius STORM (Reflexión Final) ⏰ 1.5 minutos</h3>
+                            <p>Guía a los alumnos para que se den retroalimentación mutua, usando plantillas de frases para asegurar que sea constructiva.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, la parte más importante de aprender en equipo: la retroalimentación. Después de ver el proyecto de su compañero, díganle algo positivo y una idea para mejorar. Usen estas frases:<br>
+                                <strong>* 'Lo que más me gustó de cómo tu Cutebot obedece las señales fue...'</strong><br>
+                                <strong>* '¡Qué buena 'vibe' que lograste que se detuviera tan rápido con la señal de Stop!'</strong><br>
+                                <strong>* 'Una idea para la próxima vez podría ser que también [sugiere una mejora, ej: haga un sonido de freno al detenerse]...'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 5: Gnius STORM (Reflexión Final) ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 10). Cierra la sesión conectando la experiencia práctica con los objetivos de aprendizaje y los conceptos clave del día.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han programado robots que siguen las normas de tráfico! Esto es un gran ejemplo de cómo la IA puede usarse para controlar sistemas complejos. Y lo más importante, han reflexionado sobre la precisión. En sistemas críticos como los coches autónomos, un 99% de precisión puede no ser suficiente si ese 1% de error causa un accidente. Por eso, los científicos e ingenieros trabajan incansablemente para hacer que estas IAs sean lo más confiables y seguras posible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
